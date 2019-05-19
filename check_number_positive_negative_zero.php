@@ -28,13 +28,13 @@ class NumberSign
         }
         function ValidateSign(){
             if($this->Input>0){
-                echo "Number is a Positive Integer";
+                echo "Positive";
             }
             if($this->Input<0){
-                echo "Number is a Negative Integer";
+                echo "Negative";
             }
             if($this->Input==0){
-                echo "Number is a Zero";
+                echo "Zero";
             }
         }
     }
