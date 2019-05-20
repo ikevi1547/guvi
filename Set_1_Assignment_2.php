@@ -18,11 +18,11 @@ class EvenOrOdd
                     echo "Even";
                 }
                 else{
-                    echo "ODD";
+                    echo "Odd";
                 }
         	}
         	else{
-        		echo "Invalid Input";
+        		echo "invalid";
         	}
         }
     }
