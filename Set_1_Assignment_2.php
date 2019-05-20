@@ -17,7 +17,7 @@ class EvenOrOdd
                 if($temp_data%2==0){
                     echo "Even";
                 }
-                else if($temp_data%2!=0){
+                else{
                     echo "Odd";
                 }
         	}
