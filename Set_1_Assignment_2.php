@@ -13,8 +13,7 @@ class EvenOrOdd
         }
         function Validate(){
         	if($this->type_var==1){
-                $temp_data = $this->Input;
-                if($temp_data%2==0){
+               if(($this->Input%2)==0){
                     echo "Even";
                 }
                 else{
