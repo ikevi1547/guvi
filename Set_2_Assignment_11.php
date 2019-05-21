@@ -2,8 +2,16 @@
 error_reporting(0);
 $stdin = fopen('php://stdin', 'r');
 $in = fgets($stdin);
-$n = $in[0];
-$k = $in[1];
+$len = strlen($in);
+$dum_index = 0;
+for ($i=0;$i<$len;$i++){
+    if($in[$i]!=" "){
+        $arr[$dum_index] = $in[$i];
+        $dum_index++;
+    }
+}
+$n = $arr[0];
+$k = $arr[1];
 $output = 1;
 while($k){
     $output *= $n;
