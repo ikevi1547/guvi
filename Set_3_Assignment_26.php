@@ -17,10 +17,9 @@ for($i=0;$i<$len;$i++){
         $j++;
     }
 }
-$len = count($in);
 $n=0;
-for ($i=0;$i<$len;$i++){
-    for($j=$i+1;$j<$len;$j++){
+for ($i=0;$i<$result[0];$i++){
+    for($j=$i+1;$j<$result[0];$j++){
     if($in[$i]>$in[$j]){
            $temp_data = $in[$j];
            $in[$j] = $in[$i];
