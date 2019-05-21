@@ -16,5 +16,6 @@ for ($i = 1; $i <= $in; $i++)
     $second = $output;
   }
   echo $output;
+  echo " ";
 }
 ?>
