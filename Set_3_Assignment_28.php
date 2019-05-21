@@ -19,7 +19,7 @@ for($i=0;$i<$len;$i++){
     }
 }   
 for($i=0;$i<$result[0];$i++){
-    echo $i.' '.$arrone[$i];
+    echo $arrone[$i].' '.$i;
     echo '</br>';
 }
 ?>
