@@ -15,8 +15,8 @@ for ($i=0;$i<$len;$i++){
         $dum_index++;
     }
 }
-$k = $arrone[0];
-$n = $arrone[1];
+$n = $arrone[0];
+$k = $arrone[1];
 $dum_index = 0;
 $len = strlen($result[1]);
 for ($i=0;$i<$len;$i++){
