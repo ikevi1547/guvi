@@ -6,6 +6,6 @@ if(is_numeric($in)){
     echo "yes";
 }
 else{
-    echo "no";
+    echo "No";
 }
 ?>
