@@ -7,12 +7,28 @@ while(! feof($stdin))  {
     $i++;
   }
 $sum = 0;
-$k = $result[0][1];
-$n = $result[0][0];
+$dum_index = 0;
+$len = strlen($result[0]);
+for ($i=0;$i<$len;$i++){
+    if($result[0][$i]!=" "){
+        $arrone[$dum_index] = $result[0][$i];
+        $dum_index++;
+    }
+}
+$k = $arrone[0];
+$n = $arrone[1];
+$dum_index = 0;
+$len = strlen($result[1]);
+for ($i=0;$i<$len;$i++){
+    if($result[1][$i]!=" "){
+        $arrtwo[$dum_index] = $result[1][$i];
+        $dum_index++;
+    }
+}
 for($i=0;$i<$n;$i++){
-    if($result[1][$i]==$k){
+    if($arrtwo[$i]==$k){
         while($i+1){
-            $sum += $result[1][$i];
+            $sum += $arrtwo[$i];
             $i--;
         }
         break;
