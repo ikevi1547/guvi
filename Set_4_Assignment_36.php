@@ -1,0 +1,16 @@
+<?php
+error_reporting(0);
+$stdin = fopen('php://stdin', 'r');
+$in = fgets($stdin);
+$len = strlen($in);
+$count = 0;
+for($i=0;$i<$len;$i++){
+    if($in[$i]!=" "){
+    if(!ctype_alnum($in[$i]))
+    {
+        $count += 1;
+    }
+}
+}
+echo $count;
+?>
