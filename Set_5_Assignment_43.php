@@ -10,5 +10,5 @@ for($i=0;$i<$len;$i++)
         $arrone .= $in[$i];
     }
 }
-echo $arrone;
+echo trim($arrone);
 ?>
