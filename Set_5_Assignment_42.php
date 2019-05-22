@@ -17,11 +17,11 @@ for($i=0;$i<$len;$i++)
 }
 $string_one = $arrone[0];
 $string_two = $arrone[1];
-if(strlen($string_one)>=strlen($string_two))
+if(strlen($string_one)>strlen($string_two))
 {
     echo $string_one;
 }
-else
+elseif(strlen($string_one)<=strlen($string_two))
 {
     echo $string_two;
 }
