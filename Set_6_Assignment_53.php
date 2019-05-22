@@ -2,7 +2,8 @@
 error_reporting(0);
 $stdin = fopen('php://stdin', 'r');
 $in= fgets($stdin);
-for($i=0;$i<strlen($in);$i++)
+$len = strlen($in);
+for($i=0;$i<$len;$i++)
 {
     $sum += $in[$i];
 }
