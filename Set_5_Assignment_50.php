@@ -6,7 +6,7 @@ while($in)
 {
     $output = ($in/2);
     $in = $output;
-    if($output>1&&$output<2){
+    if(($output>1&&$output<2)||$output<1){
         echo "no";
         break;
     }
