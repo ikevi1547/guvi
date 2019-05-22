@@ -6,11 +6,11 @@ while($in)
 {
     $output = ($in/2);
     $in = $output;
-    if(($output>1&&$output<2)||$output<1){
+    if($output>1&&$output<2){
         echo "no";
         break;
     }
-    elseif($output==1){
+    elseif(($output==1)||($output<1)){
         echo "yes";
         break;
     }
