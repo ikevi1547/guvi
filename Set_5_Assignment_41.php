@@ -20,7 +20,10 @@ $loop = $arrone[1];
 while($loop)
 {
     echo $repeat_element;
-    echo "</br>";
+    if($loop!=1)
+    {
+        echo "</br>";
+    }
     $loop--;
 }
 
