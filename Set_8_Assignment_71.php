@@ -6,7 +6,7 @@ $len = strlen($in);
 $count = 0;
 for($i=0,$j=$len-1;$i<($len/2);$i++,$j--){
 if($in[$i]==$in[$j]){
-    $count += 1;
+    $count++;
 }
 else{
     break;
