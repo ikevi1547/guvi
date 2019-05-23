@@ -23,6 +23,5 @@ $get_line_count = count($arrone);
 for($i=0;$i<$get_line_count;$i++)
     {
         echo abs(abs($arrone[$i][0]) - abs($arrone[$i][1]));
-        echo "</br>";
     }
 ?>
