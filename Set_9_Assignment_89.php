@@ -13,4 +13,4 @@ for($i=0;$i<strlen($in);$i++){
         }
     }
 }
-print_r($in);
+echo $in;
